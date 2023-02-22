@@ -1,0 +1,38 @@
+{
+  "name": "odinjs",
+  "version": "1.0.0",
+  "description": "Typescript Protobuf Messages for Odin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ODIN-PROTOCOL/odinjs.git"
+  },
+  "keywords": [
+    "cosmos",
+    "odin",
+    "js"
+  ],
+  "author": "Odin Protocol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ODIN-PROTOCOL/odinjs/issues"
+  },
+  "homepage": "https://github.com/ODIN-PROTOCOL/odinjs#readme",
+  "devDependencies": {
+    "protoc": "^1.1.3",
+    "ts-proto": "^1.139.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.19.0",
+    "@cosmjs/amino": "0.29.3",
+    "@cosmjs/proto-signing": "0.29.3",
+    "@cosmjs/stargate": "0.29.3",
+    "@cosmjs/tendermint-rpc": "^0.29.3",
+    "@osmonauts/lcd": "^0.8.0",
+    "long": "^5.2.0",
+    "protobufjs": "^6.11.3"
+  }
+}

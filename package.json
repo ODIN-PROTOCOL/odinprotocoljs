@@ -1,8 +1,9 @@
 {
   "name": "odinjs",
   "version": "1.0.0",
+  "type": "module",
   "description": "Typescript Protobuf Messages for Odin",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -25,7 +25,7 @@
 ## Install
 
 ```sh
-npm install odinjs
+npm install odinprotocoljs
 ```
 
 ## Usage

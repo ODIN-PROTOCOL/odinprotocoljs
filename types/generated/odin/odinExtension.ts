@@ -6,13 +6,13 @@ import { QueryClient } from "@cosmjs/stargate"
 
 export interface OdinExtension {
     readonly oracle: {
-        countDataSource: () => Promise<queryInterfaces.QueryCountsResponse>
-        getDataSourceFromHash: (hash: string) => Promise<queryInterfaces.QueryDataResponse>
-        getDataSourceFromId: (id: DataSourceId) => Promise<queryInterfaces.QueryDataSourceResponse>
-        getDataSourcesPaginated: (paginationKey?: Uint8Array) => Promise<queryInterfaces.QueryDataSourcesResponse>
+        readonly countDataSource: () => Promise<queryInterfaces.QueryCountsResponse>
+        readonly getDataSourceFromHash: (hash: string) => Promise<queryInterfaces.QueryDataResponse>
+        readonly getDataSourceFromId: (id: DataSourceId) => Promise<queryInterfaces.QueryDataSourceResponse>
+        readonly getDataSourcesPaginated: (paginationKey?: Uint8Array) => Promise<queryInterfaces.QueryDataSourcesResponse>
         
         
-        getOracleScriptsPaginated: (paginationKey?: Uint8Array) => Promise<queryInterfaces.QueryOracleScriptsResponse>
+        readonly getOracleScriptsPaginated: (paginationKey?: Uint8Array) => Promise<queryInterfaces.QueryOracleScriptsResponse>
         /*
         OracleScript(request: QueryOracleScriptRequest): Promise<QueryOracleScriptResponse>
         OracleScripts(request: QueryOracleScriptsRequest): Promise<QueryOracleScriptsResponse>

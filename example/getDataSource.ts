@@ -24,8 +24,11 @@ console.log(dataSource)
 //const dataSourceFromHash = await myOdinClient.queryClient.oracle.getDataSourceFromHash("d2c57251a60577916a7eec00086e909709d03e789616fd025daa178244d1a5f2")
 //var code = new TextDecoder().decode(dataSourceFromHash.data);
 //console.log(code)
-const votes = await myOdinClient.queryClient.gov.votes(2)
+const votes = await myOdinClient.queryClient.gov.votes(5)
 console.log(votes)
 
-const dataSourcesPaginated = await myOdinClient.queryClient.oracle.getOracleScriptsPaginated()
+const dataSources = await myOdinClient.queryClient.oracle.getDataSourcesPaginated()
+console.log(dataSources)
+
+const dataSourcesPaginated = await myOdinClient.queryClient.distribution.communityPool()
 console.log(dataSourcesPaginated)

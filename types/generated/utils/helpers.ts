@@ -3,7 +3,7 @@ import { Uint64 } from "@cosmjs/math";
 import Long from "long";
 import { PageRequest } from "../cosmos/base/query/v1beta1/pagination";
 
-export type DataSourceId = string | number | Long | Uint64;
+export type Id = string | number | Long | Uint64;
 
 export function longify(value: string | number | Long | Uint64): Long {
     const checkedValue = Uint64.fromString(value.toString());

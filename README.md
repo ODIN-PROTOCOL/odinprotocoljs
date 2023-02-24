@@ -4,7 +4,7 @@
     <img src="static/img/favicon.png" alt="Logo" width="120">
   </a>
 
-  <h2 align="center">Odinjs</h3>
+  <h2 align="center">Odinprotocoljs</h3>
 
   <p align="center" width="100%">
    <a href=""><img height="20" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
@@ -12,7 +12,7 @@
 </p>
 
   <p align="center">
-    OdinJS is a library for interacting easily with Odin network based on Stargate.
+    OdinprotocolJS is a library for interacting easily with Odin network based on Stargate.
     <br />
     <br />
     <a href="https://github.com/ODIN-PROTOCOL/odinjs/issues">Report Bug</a>

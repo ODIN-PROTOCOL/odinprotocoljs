@@ -1,3 +1,4 @@
 /node_modules
-/example
-/src
+.env
+/example/data_source_code
+/example/createDataSource.py
